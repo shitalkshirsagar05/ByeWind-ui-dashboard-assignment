@@ -36,7 +36,7 @@ src/
 ---
 
 ## 🌍 Live Demo
-👉 [View on Netlify](byewind-ui-dashboard-assignment.netlify.app)  
+👉 [View on Netlify](https://byewind-ui-dashboard-assignment.netlify.app/)  
 
 ---
 
