@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom color palette CSS variables */
+:root {
+  --color-light-cream: #FBFACD;
+  --color-light-mauve: #DEBACE;
+  --color-medium-purple: #BA94D1;
+  --color-dark-purple: #7F669D;
+}
+
+/* Base styling with custom palette */
+body {
+  background-color: var(--color-light-cream);
+  color: var(--color-dark-purple);
+}
