@@ -31,12 +31,12 @@ export const KPICard = React.memo(({ label, value, change, isPositive, bgColor }
   
   /**
    * Get background color based on theme and card type
-   * In dark mode, Orders and Revenue cards use #393E46
+   * In dark mode, Orders and Revenue cards use #52575D
    */
   const getBackgroundColor = (bgColor: string, darkMode: boolean) => {
     if (darkMode && bgColor === '#DEBACE') {
       // Orders and Revenue cards in dark mode
-      return '#393E46';
+      return '#52575D';
     }
     return bgColor;
   };
@@ -60,7 +60,7 @@ export const KPICard = React.memo(({ label, value, change, isPositive, bgColor }
           title: 'text-white',
           change: isPositive ? 'text-green-300' : 'text-red-300'
         };
-      case '#393E46': // Dark mode Orders and Revenue cards - white text
+      case '#52575D': // Dark mode Orders and Revenue cards - white text
         return {
           value: 'text-white',
           title: 'text-white',

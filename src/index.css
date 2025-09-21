@@ -15,3 +15,49 @@ body {
   background-color: var(--color-light-cream);
   color: var(--color-dark-purple);
 }
+
+/* Custom Scrollbar Styles */
+/* Webkit (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+  border: 1px solid #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+/* Dark mode scrollbar styles */
+.dark ::-webkit-scrollbar-track {
+  background: #2d2d2d;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #5a5a5a;
+  border: 1px solid #2d2d2d;
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #6e6e6e;
+}
+
+/* Firefox scrollbar styles */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c1c1c1 #f1f1f1;
+}
+
+.dark * {
+  scrollbar-color: #5a5a5a #2d2d2d;
+}

@@ -20,8 +20,7 @@
     "preview": "vite preview",
     "type-check": "tsc --noEmit",
     "build:analyze": "vite build --mode analyze",
-    "clean": "rimraf dist",
-    "prepare": "husky install"
+    "clean": "rimraf dist"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^7.0.1",
